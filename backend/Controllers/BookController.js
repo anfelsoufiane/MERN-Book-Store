@@ -11,7 +11,8 @@ const BookService=require("../services/BookServices")
  }
 
  const getBookById= async (req,res)=>{
-   try {
+   try { hello nassik
+        
       const result = await BookService.getBookById(req.params.id)
       res.status(200).json(result)
    }
